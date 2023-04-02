@@ -1,0 +1,166 @@
+@font-face {
+    src: url(Fonts/PSolid.ttf);
+    font-family: Pokemon_solid;
+}
+
+@font-face {
+    src: url(Fonts/PHollow.ttf);
+    font-family: Pokemon_hollow;
+}
+
+@font-face {
+    src: url(Fonts/PClassic.ttf);
+    font-family: Pokemon_classic;
+}
+
+body {
+    background-color: aqua;
+    background-image: url('Images/WALKING.gif');
+}
+
+div.Head {
+    background-image: url('Images/Textbox1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    width: 420px;
+    height: 180px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+
+}
+
+div.Introduction {
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+div.GRASS {
+    margin: auto;
+    background-image: url('Images/Textbox1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+    width: 420px;
+    height: 180px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+
+div.FIRE {
+    margin: auto;
+    background-image: url('Images/Textbox1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 420px;
+    height: 180px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+
+div.WATER {
+    margin: auto;
+    background-image: url('Images/Textbox1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 420px;
+    height: 180px;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+
+div.finale {
+    background-image: url('Images/Textbox1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 250px;
+    width: 820px;
+    height: 320px;
+    border: 3px solid black;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
+    background-color: white;
+}
+
+h1.starter {
+    font-family: Pokemon_classic;
+    text-align: center;
+}
+
+h2.grass {
+    font-family: Pokemon_classic;
+    color: rgb(19, 218, 19);
+}
+
+h2.fire {
+    font-family: Pokemon_classic;
+    color: rgba(193, 50, 34, 0.953);
+}
+
+h2.water {
+    font-family: Pokemon_classic;
+    color: rgba(53, 115, 208, 0.914);
+}
+
+h2.grassbox {
+    font-family: Pokemon_classic;
+    color: rgb(19, 218, 19);
+    border-bottom: 5px dashed black;
+}
+
+h2.firebox {
+    font-family: Pokemon_classic;
+    color: rgba(193, 50, 34, 0.953);
+    border-bottom: 5px dashed black;
+}
+
+h2.waterbox {
+    font-family: Pokemon_classic;
+    color: rgba(53, 115, 208, 0.914);
+    border-bottom: 5px dashed black;
+}
+
+p {
+    font-family: Pokemon_classic;
+}
+
+p.grassppl {
+    font-family: Pokemon_classic;
+}
+
+p.fireppl {
+    font-family: Pokemon_classic;
+}
+
+p.waterppl {
+    font-family: Pokemon_classic;
+}
